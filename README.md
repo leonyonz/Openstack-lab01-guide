@@ -1,6 +1,6 @@
 # Openstack-lab01-guide
 Guide for OpenStack lab NolSatu.id
-## OPENSTACK LAB GUIDE ALA ALA @YONZLEON_AW ##
+ OPENSTACK LAB GUIDE ALA ALA @YONZLEON_AW 
 
 1. Buat internal network pada openstack
 Project > Network > Networks

@@ -1,6 +1,5 @@
-# Openstack-lab01-guide
 Guide for OpenStack lab NolSatu.id
- OPENSTACK LAB GUIDE ALA ALA @YONZLEON_AW 
+##OPENSTACK LAB GUIDE##
 
 1. Buat internal network pada openstack
 Project > Network > Networks
@@ -37,16 +36,18 @@ name > node1 > specify > fixed IP > masukan ip sesuai guide 10.1.x.y
 
 4. Generate public key dan private key
 #PASTIKAN POSISI TERMINAL PADA SSH GATEWAY
+
 ssh-keygen > enter > passhprase kosong > enter
 ll .ssh/
+
 #########################################################################
 # saat generate key  menggunakan `ssh-keygen'                           #
 # psti akan muncul 2 key:                                               #
-# id_rsa=private key                                                    #
-# id_rsa.pub public key                                                 #
+# id_rsa = private key                                                  #
+# id_rsa.pub = public key                                               #
 #                                                                       #
-# public key: ditaruh di server yg akan di remote                       #
-# priv key. untuk meremote server yg sudah di taruh pubkey              #
+# public key = ditaruh di server yg akan di remote                      #
+# private key   = untuk meremote server yg sudah di taruh pubkey        #
 #########################################################################
 
 5. Import Keypair
